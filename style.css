@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #000;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+.header__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__logo-link {
+  margin-left: 5px;
+  text-decoration: none;
+  color: #FFF;
+}
+
+.header__list-link {
+  text-decoration: none;
+  color: #FFF;
+  padding-bottom: 8px;
+  border-bottom: 2px solid transparent;
+  -webkit-transition: all .5s linear;
+  transition: all .5s linear;
+}
+
+.header__list-link:hover {
+  border-bottom: 2px solid;
+  -webkit-transition: all .5s linear;
+  transition: all .5s linear;
+}
+
+.header__nav {
+  width: 100%;
+}
+
+.header__list-item {
+  max-width: 515px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  color: #fff;
+  margin: 0 auto;
+}
+
+.header__search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+}
+
+.header__search input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 8px;
+  color: #fff;
+  width: 125px;
+}
+
+.header__search-input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 8px;
+  color: #fff;
+  width: 125px;
+}
+
+.header__search-input-wraper {
+  position: relative;
+}
+
+.header__search-input-wraper::after {
+  position: absolute;
+  content: "";
+  width: 17px;
+  height: 17px;
+  background: url("img/glass.svg");
+  top: 50%;
+  -webkit-transform: translateY(-60%);
+          transform: translateY(-60%);
+  right: 0;
+}
+/*# sourceMappingURL=style.css.map */
